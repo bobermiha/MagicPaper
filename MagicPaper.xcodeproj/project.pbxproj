@@ -13,6 +13,9 @@
 		F54334B7290D46A500AA9CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54334B5290D46A500AA9CE5 /* Main.storyboard */; };
 		F54334B9290D46A600AA9CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54334B8290D46A600AA9CE5 /* Assets.xcassets */; };
 		F54334BC290D46A600AA9CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54334BA290D46A600AA9CE5 /* LaunchScreen.storyboard */; };
+		F54334C6290D479200AA9CE5 /* harryPotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F54334C3290D479200AA9CE5 /* harryPotter.mp4 */; };
+		F54334C7290D479200AA9CE5 /* gagarin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F54334C4290D479200AA9CE5 /* gagarin.mp4 */; };
+		F54334C9290D5E4800AA9CE5 /* iPhone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F54334C8290D5E4800AA9CE5 /* iPhone.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		F54334B6290D46A500AA9CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F54334B8290D46A600AA9CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F54334BB290D46A600AA9CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F54334C3290D479200AA9CE5 /* harryPotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = harryPotter.mp4; sourceTree = SOURCE_ROOT; };
+		F54334C4290D479200AA9CE5 /* gagarin.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gagarin.mp4; sourceTree = SOURCE_ROOT; };
+		F54334C8290D5E4800AA9CE5 /* iPhone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = iPhone.mp4; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 		F54334AE290D46A500AA9CE5 /* MagicPaper */ = {
 			isa = PBXGroup;
 			children = (
+				F54334C8290D5E4800AA9CE5 /* iPhone.mp4 */,
+				F54334C3290D479200AA9CE5 /* harryPotter.mp4 */,
+				F54334C4290D479200AA9CE5 /* gagarin.mp4 */,
 				F54334AF290D46A500AA9CE5 /* AppDelegate.swift */,
 				F54334B1290D46A500AA9CE5 /* art.scnassets */,
 				F54334B3290D46A500AA9CE5 /* ViewController.swift */,
@@ -123,9 +132,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54334C9290D5E4800AA9CE5 /* iPhone.mp4 in Resources */,
+				F54334C7290D479200AA9CE5 /* gagarin.mp4 in Resources */,
 				F54334B2290D46A500AA9CE5 /* art.scnassets in Resources */,
 				F54334BC290D46A600AA9CE5 /* LaunchScreen.storyboard in Resources */,
 				F54334B9290D46A600AA9CE5 /* Assets.xcassets in Resources */,
+				F54334C6290D479200AA9CE5 /* harryPotter.mp4 in Resources */,
 				F54334B7290D46A500AA9CE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +307,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +338,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
