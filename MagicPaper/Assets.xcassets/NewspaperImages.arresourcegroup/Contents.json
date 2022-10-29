@@ -1,0 +1,17 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "gagarin.arreferenceimage"
+    },
+    {
+      "filename" : "harryPotter.arreferenceimage"
+    },
+    {
+      "filename" : "iPhone.arreferenceimage"
+    }
+  ]
+}
